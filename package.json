@@ -1,0 +1,24 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "This is shop api that allow user to view products and buy. it also has admin role for allowing admin to create /update/view or delete products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd node src/index.js",
+    "dev": "env-cmd nodemon src/index.js"
+  },
+  "author": "Abanoub Fathy",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "stripe": "^8.207.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
